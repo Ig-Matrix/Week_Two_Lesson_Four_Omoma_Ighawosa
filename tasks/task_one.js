@@ -1,2 +1,5 @@
+function greet () {
+  console.log('Hello, I am an Arsenal fan!') // @logs: Hello, I am an Arsenal fan!
+}
 
-// Write something
+greet() // @function call
