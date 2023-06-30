@@ -5,13 +5,13 @@ Return a value from a function
 ▫️ Call the function and store the returned value in a variable.
 ▫️ Log the variable to the console to see the multiplication result.
 
-*/ 
+*/
 
-function multiply (num1, num2) {
-  const result = num1 * num2
-  return `${num1} x ${num2} = ${result}`
-};
+function multiply(num1, num2) {
+    const result = num1 * num2;
+    return `${num1} x ${num2} = ${result}`;
+}
 
-const answer = multiply(3, 6)
+const answer = multiply(3, 6);
 
-console.log(answer) // @logs 3 x 6 = 18
+console.log(answer); // @logs 3 x 6 = 18
